@@ -6,28 +6,48 @@ body{
   letter-spacing:1px;
   
 }
-h1, title{
+p{
+  margin:10px;
+  padding:10px;
+}
+h1{
   color:#3779dd;
   text-align:center;
-  font-size:32px;
+  font-size:52px;
   padding:10px;
+  margin:10px;
   border:5px dotted #ef8254;
+  background:#fab71b;
   border-radius:10px;
   font-family: 'Jua', sans-serif;
 }
 h2{
+  color:#3779dd;
+  text-align:center;
+  font-size:32px;
+  padding:10px;
+  margin:10px;
+  border:5px dotted #ef8254;
+  background:#fab71b;
+  border-radius:10px;
+  font-family: 'Jua', sans-serif;
+}
+h3{
   color:#ef8254;
   font-size:24px;
+  margin:10px;
+  padding:10px;
   display:inline-block;
   font-family: 'Jua', sans-serif;
 }
 #main{
   padding:30px;
-  margin:30px;
+  margin:50px;
   text-align:center;
   border:7px dotted #fab71b;
   border-radius:20px;
 }
+
 .footer {
   background-color: #f5f5f5;
   text-align:center;
@@ -35,4 +55,18 @@ h2{
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+df-messenger {
+  --df-messenger-bot-message: #eaa70b;
+  --df-messenger-button-titlebar-color: #ef8254;
+  --df-messenger-button-titlebar-font-color: #fafafa;
+  --df-messenger-input-box-color: #ef8254;
+  --df-messenger-input-font-color: #fafafa;
+  --df-messenger-chat-background-color: #e6e0c5;
+  --df-messenger-font-color: #fafafa;
+  --df-messenger-input-placeholder-font-color: #fafafa;
+  --df-messenger-minimized-chat-close-icon-color: #fab71b;
+  --df-messenger-send-icon: #878fac;
+  --df-messenger-user-message: #479b3d;
 }
