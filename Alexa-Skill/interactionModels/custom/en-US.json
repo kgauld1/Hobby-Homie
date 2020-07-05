@@ -1,0 +1,182 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hobby homie",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "how do i use this",
+            "help me",
+            "i need help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [
+            {
+              "name": "weatherCondition",
+              "type": "AMAZON.WeatherCondition"
+            }
+          ],
+          "samples": [
+            "give me a {weatherCondition} hobby",
+            "a hobby",
+            "tell me a hobby",
+            "give me a hobby",
+            "give me some information",
+            "tell me something",
+            "give me something"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloByName",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "my name is {name}"
+          ]
+        },
+        {
+          "name": "AMAZON.SearchAction\u003cobject@WeatherForecast[weatherCondition]\u003e",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1"
+              }
+            }
+          ],
+          "name": "AMAZON.WeatherCondition"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1"
+              }
+            },
+            {
+              "name": {
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            }
+          ],
+          "name": "AMAZON.MusicRecording"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1"
+              }
+            }
+          ],
+          "name": "AMAZON.Movie"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "value": "1"
+              }
+            }
+          ],
+          "name": "AMAZON.TVSeries"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1"
+              }
+            }
+          ],
+          "name": "AMAZON.FirstName"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "HelloByName",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.58343797130.1543664348045"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.58343797130.1543664348045",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What\u0027s your name?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "8"
+}
