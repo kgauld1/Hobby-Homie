@@ -1,0 +1,85 @@
+{
+  "id": "898d0683-29c4-45ce-adc7-eeba6636ed33",
+  "name": "Hobbies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Here\u0027s a hobby I think you\u0027ll enjoy:"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Read a book.",
+            "Go outside for a walk.",
+            "Go outside for a run.",
+            "Go outside for a bike ride.",
+            "Take an online course.",
+            "Go camping in your backyard.",
+            "Play an instrument.",
+            "Paint a portrait of a family member.",
+            "Make a dorodango ball.",
+            "Call your friend.",
+            "Embroider a shirt.",
+            "Learn to knit or crochet.",
+            "Restore a piece of furniture.",
+            "Grow a new plant in the garden.",
+            "Make your own compost.",
+            "Watch a movie.",
+            "Listen to music.",
+            "Play a video game.",
+            "Go bird watching.",
+            "Learn how to dance.",
+            "Start a blog.",
+            "Code an application.",
+            "Start a podcast.",
+            "Write a book.",
+            "Start a bullet journal.",
+            "Play chess.",
+            "Learn how to juggle.",
+            "Start a puzzle.",
+            "Make a necklace.",
+            "Learn to bake."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I just wanted to remind you that you\u0027re beautiful and worth it. Good luck!",
+            "I believe in you. Good luck!",
+            "Give it a shot. Good luck!",
+            "I hope you try it out. Good luck!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "What else can I help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
